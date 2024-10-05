@@ -1,0 +1,27 @@
+[0.014s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp -- -j20 -l20
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target service_server_01[0m
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target service_client_01[0m
+[0.051s] [ 50%] Built target service_server_01
+[0.064s] [100%] Built target service_client_01
+[0.076s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp -- -j20 -l20
+[0.101s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp
+[0.109s] -- Install configuration: ""
+[0.110s] -- Execute custom install script
+[0.110s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_server_01
+[0.110s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/lib/example_service_rclcpp/service_client_01
+[0.110s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/ament_index/resource_index/package_run_dependencies/example_service_rclcpp
+[0.110s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/ament_index/resource_index/parent_prefix_path/example_service_rclcpp
+[0.110s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.sh
+[0.110s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/ament_prefix_path.dsv
+[0.111s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.sh
+[0.111s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/environment/path.dsv
+[0.111s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.bash
+[0.111s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.sh
+[0.112s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.zsh
+[0.112s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/local_setup.dsv
+[0.112s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv
+[0.118s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/ament_index/resource_index/packages/example_service_rclcpp
+[0.118s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig.cmake
+[0.118s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/cmake/example_service_rclcppConfig-version.cmake
+[0.118s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.xml
+[0.126s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp

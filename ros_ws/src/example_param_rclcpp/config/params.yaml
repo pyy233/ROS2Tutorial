@@ -1,0 +1,6 @@
+# 节点名
+param_node:
+  ros__parameters:
+    my_param: 100
+
+#不同的节点要分开来写

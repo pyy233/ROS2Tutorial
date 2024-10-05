@@ -1,0 +1,425 @@
+[0.065s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.065s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x769b14e2caf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x769b14f516c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x769b14f516c0>>)
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.158s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_param_rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_param_rclcpp) by extension 'ignore'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_param_rclcpp) by extension 'ignore_ament_install'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_param_rclcpp) by extensions ['colcon_pkg']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_param_rclcpp) by extension 'colcon_pkg'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_param_rclcpp) by extensions ['colcon_meta']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_param_rclcpp) by extension 'colcon_meta'
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_param_rclcpp) by extensions ['ros']
+[0.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_param_rclcpp) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_param_rclcpp' with type 'ros.ament_cmake' and name 'example_param_rclcpp'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'ignore_ament_install'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['colcon_pkg']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'colcon_pkg'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['colcon_meta']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'colcon_meta'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extensions ['ros']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_service_rclcpp) by extension 'ros'
+[0.168s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_service_rclcpp' with type 'ros.ament_cmake' and name 'example_service_rclcpp'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extensions ['ignore', 'ignore_ament_install']
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extension 'ignore'
+[0.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_topic_rclcpp) by extension 'ros'
+[0.169s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_topic_rclcpp' with type 'ros.ament_cmake' and name 'example_topic_rclcpp'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'ignore'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'ignore_ament_install'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extensions ['colcon_pkg']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'colcon_pkg'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extensions ['colcon_meta']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'colcon_meta'
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extensions ['ros']
+[0.169s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_interface) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_interface' with type 'ros.ament_cmake' and name 'my_interface'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_status) by extensions ['ignore', 'ignore_ament_install']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_status) by extension 'ignore'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_status) by extension 'ignore_ament_install'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_status) by extensions ['colcon_pkg']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_status) by extension 'colcon_pkg'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_status) by extensions ['colcon_meta']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_status) by extension 'colcon_meta'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_status) by extensions ['ros']
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_status) by extension 'ros'
+[0.170s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_status' with type 'ros.ament_cmake' and name 'robot_status'
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.184s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.184s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.184s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.184s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.184s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.184s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.184s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.184s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.184s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.184s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.184s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install
+[0.185s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_param_rclcpp' build argument 'cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_param_rclcpp' build argument 'cmake_target' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_param_rclcpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_param_rclcpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_param_rclcpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_param_rclcpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_param_rclcpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_param_rclcpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_param_rclcpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.212s] DEBUG:colcon.colcon_core.verb:Building package 'example_param_rclcpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_param_rclcpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp', 'merge_install': False, 'path': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_param_rclcpp', 'symlink_install': True, 'test_result_base': None}
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_target' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'example_service_rclcpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.212s] DEBUG:colcon.colcon_core.verb:Building package 'example_service_rclcpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp', 'merge_install': False, 'path': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_service_rclcpp', 'symlink_install': True, 'test_result_base': None}
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'example_topic_rclcpp' build argument 'cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'example_topic_rclcpp' build argument 'cmake_target' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'example_topic_rclcpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'example_topic_rclcpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'example_topic_rclcpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'example_topic_rclcpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'example_topic_rclcpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'example_topic_rclcpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'example_topic_rclcpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.213s] DEBUG:colcon.colcon_core.verb:Building package 'example_topic_rclcpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_topic_rclcpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp', 'merge_install': False, 'path': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_topic_rclcpp', 'symlink_install': True, 'test_result_base': None}
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'cmake_target' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'my_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.213s] DEBUG:colcon.colcon_core.verb:Building package 'my_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/my_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface', 'merge_install': False, 'path': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/my_interface', 'symlink_install': True, 'test_result_base': None}
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'robot_status' build argument 'cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'robot_status' build argument 'cmake_target' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'robot_status' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'robot_status' build argument 'cmake_clean_cache' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'robot_status' build argument 'cmake_clean_first' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'robot_status' build argument 'cmake_force_configure' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'robot_status' build argument 'ament_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'robot_status' build argument 'catkin_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'robot_status' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.213s] DEBUG:colcon.colcon_core.verb:Building package 'robot_status' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status', 'merge_install': False, 'path': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/robot_status', 'symlink_install': True, 'test_result_base': None}
+[0.213s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.214s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.215s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/my_interface' with build type 'ament_cmake'
+[0.215s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/my_interface'
+[0.216s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.216s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.216s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.219s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_param_rclcpp' with build type 'ament_cmake'
+[0.219s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_param_rclcpp'
+[0.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.221s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_service_rclcpp' with build type 'ament_cmake'
+[0.221s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_service_rclcpp'
+[0.221s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.221s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.223s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_topic_rclcpp' with build type 'ament_cmake'
+[0.223s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_topic_rclcpp'
+[0.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/my_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/my_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface
+[0.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_param_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_param_rclcpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp
+[0.234s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_service_rclcpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp
+[0.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_topic_rclcpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp
+[1.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_param_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_param_rclcpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp
+[1.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_param_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_param_rclcpp -- -j20 -l20
+[1.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_topic_rclcpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp
+[1.086s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_topic_rclcpp -- -j20 -l20
+[1.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/example_service_rclcpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp
+[1.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp -- -j20 -l20
+[1.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/my_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/my_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface
+[1.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/my_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/my_interface -- -j20 -l20
+[3.390s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/my_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/my_interface -- -j20 -l20
+[3.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/my_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/my_interface
+[3.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_param_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_param_rclcpp -- -j20 -l20
+[3.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_param_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_param_rclcpp
+[3.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp -- -j20 -l20
+[3.634s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp
+[3.672s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_param_rclcpp)
+[3.672s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_param_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_param_rclcpp
+[3.674s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp' for CMake module files
+[3.674s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp' for CMake config files
+[3.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_param_rclcpp', 'cmake_prefix_path')
+[3.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/hook/cmake_prefix_path.ps1'
+[3.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/hook/cmake_prefix_path.dsv'
+[3.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/hook/cmake_prefix_path.sh'
+[3.676s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/lib'
+[3.676s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/bin'
+[3.676s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/lib/pkgconfig/example_param_rclcpp.pc'
+[3.676s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/lib/python3.10/site-packages'
+[3.676s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/bin'
+[3.676s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/package.ps1'
+[3.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/package.dsv'
+[3.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/package.sh'
+[3.678s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/package.bash'
+[3.679s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/package.zsh'
+[3.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/colcon-core/packages/example_param_rclcpp)
+[3.703s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_param_rclcpp)
+[3.703s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp' for CMake module files
+[3.704s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp' for CMake config files
+[3.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_param_rclcpp', 'cmake_prefix_path')
+[3.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/hook/cmake_prefix_path.ps1'
+[3.705s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/hook/cmake_prefix_path.dsv'
+[3.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/hook/cmake_prefix_path.sh'
+[3.706s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/lib'
+[3.706s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/bin'
+[3.706s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/lib/pkgconfig/example_param_rclcpp.pc'
+[3.706s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/lib/python3.10/site-packages'
+[3.707s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/bin'
+[3.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/package.ps1'
+[3.708s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/package.dsv'
+[3.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/package.sh'
+[3.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/package.bash'
+[3.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/example_param_rclcpp/package.zsh'
+[3.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp/share/colcon-core/packages/example_param_rclcpp)
+[3.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_service_rclcpp)
+[3.769s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp' for CMake module files
+[3.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_service_rclcpp
+[3.770s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp' for CMake config files
+[3.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_service_rclcpp', 'cmake_prefix_path')
+[3.770s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.ps1'
+[3.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.dsv'
+[3.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.sh'
+[3.771s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/lib'
+[3.771s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/bin'
+[3.771s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/lib/pkgconfig/example_service_rclcpp.pc'
+[3.772s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/lib/python3.10/site-packages'
+[3.772s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/bin'
+[3.772s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.ps1'
+[3.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv'
+[3.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.sh'
+[3.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.bash'
+[3.773s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.zsh'
+[3.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/colcon-core/packages/example_service_rclcpp)
+[3.799s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_service_rclcpp)
+[3.799s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp' for CMake module files
+[3.800s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp' for CMake config files
+[3.800s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_service_rclcpp', 'cmake_prefix_path')
+[3.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.ps1'
+[3.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.dsv'
+[3.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/hook/cmake_prefix_path.sh'
+[3.801s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/lib'
+[3.801s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/bin'
+[3.801s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/lib/pkgconfig/example_service_rclcpp.pc'
+[3.801s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/lib/python3.10/site-packages'
+[3.801s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/bin'
+[3.801s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.ps1'
+[3.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.dsv'
+[3.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.sh'
+[3.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.bash'
+[3.802s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/example_service_rclcpp/package.zsh'
+[3.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp/share/colcon-core/packages/example_service_rclcpp)
+[3.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_interface)
+[3.954s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface' for CMake module files
+[3.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/my_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/my_interface
+[3.955s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface' for CMake config files
+[3.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interface', 'cmake_prefix_path')
+[3.956s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/hook/cmake_prefix_path.ps1'
+[3.956s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/hook/cmake_prefix_path.dsv'
+[3.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/hook/cmake_prefix_path.sh'
+[3.957s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/lib'
+[3.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interface', 'ld_library_path_lib')
+[3.957s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/hook/ld_library_path_lib.ps1'
+[3.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/hook/ld_library_path_lib.dsv'
+[3.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/hook/ld_library_path_lib.sh'
+[3.958s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/bin'
+[3.958s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/lib/pkgconfig/my_interface.pc'
+[3.958s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/lib/python3.10/site-packages'
+[3.958s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/bin'
+[3.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/package.ps1'
+[3.959s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/package.dsv'
+[3.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/package.sh'
+[3.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/package.bash'
+[3.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/package.zsh'
+[3.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/colcon-core/packages/my_interface)
+[4.014s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_interface)
+[4.014s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface' for CMake module files
+[4.015s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface' for CMake config files
+[4.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interface', 'cmake_prefix_path')
+[4.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/hook/cmake_prefix_path.ps1'
+[4.015s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/hook/cmake_prefix_path.dsv'
+[4.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/hook/cmake_prefix_path.sh'
+[4.016s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/lib'
+[4.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_interface', 'ld_library_path_lib')
+[4.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/hook/ld_library_path_lib.ps1'
+[4.016s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/hook/ld_library_path_lib.dsv'
+[4.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/hook/ld_library_path_lib.sh'
+[4.017s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/bin'
+[4.017s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/lib/pkgconfig/my_interface.pc'
+[4.017s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/lib/python3.10/site-packages'
+[4.017s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/bin'
+[4.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/package.ps1'
+[4.018s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/package.dsv'
+[4.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/package.sh'
+[4.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/package.bash'
+[4.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/my_interface/package.zsh'
+[4.019s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/share/colcon-core/packages/my_interface)
+[4.019s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/robot_status' with build type 'ament_cmake'
+[4.019s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/robot_status'
+[4.019s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.019s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status': CMAKE_PREFIX_PATH=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp:/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/robot_status -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status
+[4.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status' returned '0': CMAKE_PREFIX_PATH=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp:/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/robot_status -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status
+[4.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status': CMAKE_PREFIX_PATH=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status -- -j20 -l20
+[6.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_topic_rclcpp -- -j20 -l20
+[6.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_topic_rclcpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_topic_rclcpp
+[6.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_topic_rclcpp)
+[6.879s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp' for CMake module files
+[6.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_topic_rclcpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/example_topic_rclcpp
+[6.880s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp' for CMake config files
+[6.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_topic_rclcpp', 'cmake_prefix_path')
+[6.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/hook/cmake_prefix_path.ps1'
+[6.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/hook/cmake_prefix_path.dsv'
+[6.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/hook/cmake_prefix_path.sh'
+[6.881s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/lib'
+[6.881s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/bin'
+[6.881s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/lib/pkgconfig/example_topic_rclcpp.pc'
+[6.881s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/lib/python3.10/site-packages'
+[6.881s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/bin'
+[6.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.ps1'
+[6.882s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv'
+[6.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.sh'
+[6.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.bash'
+[6.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.zsh'
+[6.883s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/colcon-core/packages/example_topic_rclcpp)
+[6.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_topic_rclcpp)
+[6.912s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp' for CMake module files
+[6.912s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp' for CMake config files
+[6.912s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_topic_rclcpp', 'cmake_prefix_path')
+[6.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/hook/cmake_prefix_path.ps1'
+[6.913s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/hook/cmake_prefix_path.dsv'
+[6.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/hook/cmake_prefix_path.sh'
+[6.913s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/lib'
+[6.913s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/bin'
+[6.913s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/lib/pkgconfig/example_topic_rclcpp.pc'
+[6.913s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/lib/python3.10/site-packages'
+[6.914s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/bin'
+[6.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.ps1'
+[6.914s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.dsv'
+[6.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.sh'
+[6.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.bash'
+[6.915s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/example_topic_rclcpp/package.zsh'
+[6.915s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp/share/colcon-core/packages/example_topic_rclcpp)
+[7.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status' returned '0': CMAKE_PREFIX_PATH=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status -- -j20 -l20
+[7.840s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status': CMAKE_PREFIX_PATH=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status
+[8.044s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_status)
+[8.045s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status' for CMake module files
+[8.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status' returned '0': CMAKE_PREFIX_PATH=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status
+[8.046s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status' for CMake config files
+[8.046s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_status', 'cmake_prefix_path')
+[8.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/hook/cmake_prefix_path.ps1'
+[8.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/hook/cmake_prefix_path.dsv'
+[8.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/hook/cmake_prefix_path.sh'
+[8.049s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/lib'
+[8.050s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/bin'
+[8.050s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/lib/pkgconfig/robot_status.pc'
+[8.050s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/lib/python3.10/site-packages'
+[8.051s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/bin'
+[8.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/package.ps1'
+[8.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/package.dsv'
+[8.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/package.sh'
+[8.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/package.bash'
+[8.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/package.zsh'
+[8.054s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/colcon-core/packages/robot_status)
+[8.098s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_status)
+[8.098s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status' for CMake module files
+[8.099s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status' for CMake config files
+[8.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_status', 'cmake_prefix_path')
+[8.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/hook/cmake_prefix_path.ps1'
+[8.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/hook/cmake_prefix_path.dsv'
+[8.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/hook/cmake_prefix_path.sh'
+[8.103s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/lib'
+[8.103s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/bin'
+[8.103s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/lib/pkgconfig/robot_status.pc'
+[8.104s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/lib/python3.10/site-packages'
+[8.104s] Level 1:colcon.colcon_core.environment:checking '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/bin'
+[8.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/package.ps1'
+[8.105s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/package.dsv'
+[8.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/package.sh'
+[8.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/package.bash'
+[8.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/package.zsh'
+[8.107s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/colcon-core/packages/robot_status)
+[8.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.108s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.116s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.116s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.116s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.142s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/local_setup.ps1'
+[8.143s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/_local_setup_util_ps1.py'
+[8.144s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/setup.ps1'
+[8.145s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/local_setup.sh'
+[8.146s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/_local_setup_util_sh.py'
+[8.146s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/setup.sh'
+[8.147s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/local_setup.bash'
+[8.147s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/setup.bash'
+[8.147s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/local_setup.zsh'
+[8.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/setup.zsh'

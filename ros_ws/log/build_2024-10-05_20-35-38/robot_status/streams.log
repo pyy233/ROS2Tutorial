@@ -1,0 +1,24 @@
+[0.007s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status': CMAKE_PREFIX_PATH=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status -- -j20 -l20
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target robot_publisher[0m
+[0.054s] [100%] Built target robot_publisher
+[0.064s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status' returned '0': CMAKE_PREFIX_PATH=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status -- -j20 -l20
+[0.087s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status': CMAKE_PREFIX_PATH=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status
+[0.095s] -- Install configuration: ""
+[0.095s] -- Execute custom install script
+[0.095s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/lib/robot_status/robot_publisher
+[0.095s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/ament_index/resource_index/package_run_dependencies/robot_status
+[0.095s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/ament_index/resource_index/parent_prefix_path/robot_status
+[0.095s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/environment/ament_prefix_path.sh
+[0.095s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/environment/ament_prefix_path.dsv
+[0.096s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/environment/path.sh
+[0.096s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/environment/path.dsv
+[0.096s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/local_setup.bash
+[0.096s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/local_setup.sh
+[0.096s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/local_setup.zsh
+[0.096s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/local_setup.dsv
+[0.096s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/package.dsv
+[0.102s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/ament_index/resource_index/packages/robot_status
+[0.102s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/cmake/robot_statusConfig.cmake
+[0.102s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/cmake/robot_statusConfig-version.cmake
+[0.102s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status/share/robot_status/package.xml
+[0.104s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status' returned '0': CMAKE_PREFIX_PATH=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/robot_status
