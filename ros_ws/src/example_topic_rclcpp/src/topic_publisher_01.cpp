@@ -9,7 +9,7 @@ public:
     {
         RCLCPP_INFO(this->get_logger(), "大家好，我是%s.", name.c_str());
         // 创建发布者，指定该发布者发布的数据类型和发布的话题名称command
-        auto qos = rclcpp::QoS(rclcpp::KeepLast(10)).reliable();
+        auto qos = rclcpp::QoS(rclcpp::KeepLast(10)).reliability();
         command_publisher_ = this->create_publisher<std_msgs::msg::String>("command", 10);
         // command_publisher_ = this->create_publisher<std_msgs::msg::String>("command", qos);
         // 创建定时器，500ms为周期，定时调用timer_callback回调函数
