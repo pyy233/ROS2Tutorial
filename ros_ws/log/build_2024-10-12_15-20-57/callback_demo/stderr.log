@@ -1,0 +1,7 @@
+[01m[K/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/callback_demo/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+    2 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/callback_demo.dir/build.make:76: CMakeFiles/callback_demo.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/callback_demo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

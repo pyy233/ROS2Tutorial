@@ -1,0 +1,53 @@
+[0.008s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/callback_demo -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo
+[0.137s] -- The C compiler identification is GNU 11.4.0
+[0.255s] -- The CXX compiler identification is GNU 11.4.0
+[0.262s] -- Detecting C compiler ABI info
+[0.343s] -- Detecting C compiler ABI info - done
+[0.349s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.349s] -- Detecting C compile features
+[0.349s] -- Detecting C compile features - done
+[0.352s] -- Detecting CXX compiler ABI info
+[0.425s] -- Detecting CXX compiler ABI info - done
+[0.430s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.431s] -- Detecting CXX compile features
+[0.431s] -- Detecting CXX compile features - done
+[0.434s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.590s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.662s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.715s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.721s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.729s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.738s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.751s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.783s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.785s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.882s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.909s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.940s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.947s] -- Looking for pthread.h
+[1.028s] -- Looking for pthread.h - found
+[1.028s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.120s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.122s] -- Found Threads: TRUE  
+[1.180s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.234s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.234s] -- Configured cppcheck include dirs: 
+[1.234s] -- Configured cppcheck exclude dirs and/or files: 
+[1.235s] -- Added test 'lint_cmake' to check CMake code style
+[1.235s] -- Added test 'uncrustify' to check C / C++ code style
+[1.235s] -- Configured uncrustify additional arguments: 
+[1.236s] -- Added test 'xmllint' to check XML markup files
+[1.237s] -- Configuring done
+[1.241s] -- Generating done
+[1.242s] -- Build files have been written to: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo
+[1.249s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/callback_demo -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo
+[1.250s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo -- -j20 -l20
+[1.302s] [ 50%] [32mBuilding CXX object CMakeFiles/callback_demo.dir/src/main.cpp.o[0m
+[1.431s] [01m[K/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/callback_demo/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[1.431s]     2 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[1.431s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.431s] compilation terminated.
+[1.432s] gmake[2]: *** [CMakeFiles/callback_demo.dir/build.make:76: CMakeFiles/callback_demo.dir/src/main.cpp.o] Error 1
+[1.433s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/callback_demo.dir/all] Error 2
+[1.433s] gmake: *** [Makefile:146: all] Error 2
+[1.435s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo -- -j20 -l20

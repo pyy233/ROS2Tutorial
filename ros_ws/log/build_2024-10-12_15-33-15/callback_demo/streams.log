@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo -- -j20 -l20
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target callback_demo[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/callback_demo.dir/src/main.cpp.o[0m
+[1.829s] [100%] [32m[1mLinking CXX executable callback_demo[0m
+[1.915s] [100%] Built target callback_demo
+[1.926s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo -- -j20 -l20
+[1.975s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo
+[1.983s] -- Install configuration: ""
+[1.984s] -- Execute custom install script
+[1.984s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/lib/callback_demo/callback_demo
+[1.984s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/ament_index/resource_index/package_run_dependencies/callback_demo
+[1.984s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/ament_index/resource_index/parent_prefix_path/callback_demo
+[1.985s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/environment/ament_prefix_path.sh
+[1.985s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/environment/ament_prefix_path.dsv
+[1.985s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/environment/path.sh
+[1.985s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/environment/path.dsv
+[1.985s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/local_setup.bash
+[1.985s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/local_setup.sh
+[1.985s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/local_setup.zsh
+[1.986s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/local_setup.dsv
+[1.986s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/package.dsv
+[1.996s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/ament_index/resource_index/packages/callback_demo
+[1.996s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/cmake/callback_demoConfig.cmake
+[1.997s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/cmake/callback_demoConfig-version.cmake
+[1.997s] -- Up-to-date symlink: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/package.xml
+[1.999s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo
