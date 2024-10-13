@@ -1,0 +1,7 @@
+[31mCMake Error at CMakeLists.txt:8 (add_include_directories):
+  Unknown CMake command "add_include_directories".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:788: cmake_check_build_system] Error 1

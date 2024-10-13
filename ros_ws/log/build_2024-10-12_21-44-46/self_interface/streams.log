@@ -1,0 +1,30 @@
+[0.007s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface -- -j20 -l20
+[0.052s] [  3%] Built target self_interface__cpp
+[0.053s] [ 12%] Built target self_interface__rosidl_generator_c
+[0.053s] [ 15%] [32mBuilding CXX object CMakeFiles/robot_publisher.dir/src/main.cpp.o[0m
+[0.061s] [ 15%] Built target ament_cmake_python_symlink_self_interface
+[0.077s] [ 24%] Built target self_interface__rosidl_typesupport_introspection_c
+[0.080s] [ 36%] Built target self_interface__rosidl_typesupport_c
+[0.081s] [ 42%] Built target self_interface__rosidl_typesupport_fastrtps_cpp
+[0.082s] [ 51%] Built target self_interface__rosidl_typesupport_cpp
+[0.084s] [ 60%] Built target self_interface__rosidl_typesupport_fastrtps_c
+[0.084s] [ 69%] Built target self_interface__rosidl_typesupport_introspection_cpp
+[0.098s] [ 69%] Built target self_interface
+[0.118s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.179s] [01m[K/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/self_interface/src/main.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kself_interface/msg/robot.hpp: No such file or directory
+[0.179s]     2 | #include [01;31m[K"self_interface/msg/robot.hpp"[m[K
+[0.180s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.180s] compilation terminated.
+[0.181s] gmake[2]: *** [CMakeFiles/robot_publisher.dir/build.make:76: CMakeFiles/robot_publisher.dir/src/main.cpp.o] Error 1
+[0.181s] gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/robot_publisher.dir/all] Error 2
+[0.181s] gmake[1]: *** Waiting for unfinished jobs....
+[0.211s] running egg_info
+[0.211s] writing self_interface.egg-info/PKG-INFO
+[0.212s] writing dependency_links to self_interface.egg-info/dependency_links.txt
+[0.212s] writing top-level names to self_interface.egg-info/top_level.txt
+[0.213s] reading manifest file 'self_interface.egg-info/SOURCES.txt'
+[0.213s] writing manifest file 'self_interface.egg-info/SOURCES.txt'
+[0.233s] [ 72%] Built target ament_cmake_python_build_self_interface_egg
+[0.320s] [ 72%] Built target self_interface__py
+[0.320s] gmake: *** [Makefile:146: all] Error 2
+[0.323s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface -- -j20 -l20

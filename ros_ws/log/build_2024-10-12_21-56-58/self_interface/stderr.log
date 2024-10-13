@@ -1,0 +1,9 @@
+In file included from [01m[K/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/self_interface/src/main.cpp:2[m[K:
+[01m[K/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/self_interface/include/self_interface/self_interface/msg/robot.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kself_interface/msg/detail/robot__struct.hpp: No such file or directory
+    7 | #include [01;31m[K"self_interface/msg/detail/robot__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/robot_publisher.dir/build.make:76: CMakeFiles/robot_publisher.dir/src/main.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/robot_publisher.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

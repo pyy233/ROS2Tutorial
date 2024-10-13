@@ -1,0 +1,23 @@
+[  3%] [32mBuilding CXX object CMakeFiles/robot_publisher.dir/src/main.cpp.o[0m
+[  6%] Built target self_interface__cpp
+[ 15%] Built target self_interface__rosidl_generator_c
+[ 15%] Built target ament_cmake_python_symlink_self_interface
+[ 24%] Built target self_interface__rosidl_typesupport_cpp
+[ 33%] Built target self_interface__rosidl_typesupport_introspection_c
+[ 42%] Built target self_interface__rosidl_typesupport_fastrtps_cpp
+[ 51%] Built target self_interface__rosidl_typesupport_c
+[ 60%] Built target self_interface__rosidl_typesupport_introspection_cpp
+[ 69%] Built target self_interface__rosidl_typesupport_fastrtps_c
+[ 69%] Built target self_interface
+[ 72%] Built target self_interface__py
+[ 78%] Built target self_interface__rosidl_generator_py
+[ 84%] Built target self_interface__rosidl_typesupport_fastrtps_c__pyext
+[ 90%] Built target self_interface__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target self_interface__rosidl_typesupport_c__pyext
+running egg_info
+writing self_interface.egg-info/PKG-INFO
+writing dependency_links to self_interface.egg-info/dependency_links.txt
+writing top-level names to self_interface.egg-info/top_level.txt
+reading manifest file 'self_interface.egg-info/SOURCES.txt'
+writing manifest file 'self_interface.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_self_interface_egg

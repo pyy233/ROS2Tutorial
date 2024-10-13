@@ -1,0 +1,9 @@
+[0.008s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface -- -j20 -l20
+[0.036s] [31mCMake Error at CMakeLists.txt:8 (add_include_directories):
+[0.036s]   Unknown CMake command "add_include_directories".
+[0.036s] 
+[0.036s] [0m
+[0.036s] -- Configuring incomplete, errors occurred!
+[0.036s] See also "/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface/CMakeFiles/CMakeOutput.log".
+[0.037s] gmake: *** [Makefile:788: cmake_check_build_system] Error 1
+[0.039s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface -- -j20 -l20

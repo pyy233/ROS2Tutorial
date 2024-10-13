@@ -1,0 +1,69 @@
+[0.018s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/callback_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo
+[0.119s] -- The C compiler identification is GNU 11.4.0
+[0.219s] -- The CXX compiler identification is GNU 11.4.0
+[0.227s] -- Detecting C compiler ABI info
+[0.277s] -- Detecting C compiler ABI info - done
+[0.285s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.286s] -- Detecting C compile features
+[0.286s] -- Detecting C compile features - done
+[0.290s] -- Detecting CXX compiler ABI info
+[0.348s] -- Detecting CXX compiler ABI info - done
+[0.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.358s] -- Detecting CXX compile features
+[0.358s] -- Detecting CXX compile features - done
+[0.360s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.483s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.533s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.546s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.570s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.573s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.577s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.622s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.624s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.687s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.708s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.736s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.742s] -- Looking for pthread.h
+[0.790s] -- Looking for pthread.h - found
+[0.790s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.844s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.845s] -- Found Threads: TRUE  
+[0.900s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.971s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.971s] -- Configured cppcheck include dirs: 
+[0.971s] -- Configured cppcheck exclude dirs and/or files: 
+[0.971s] -- Added test 'lint_cmake' to check CMake code style
+[0.971s] -- Added test 'uncrustify' to check C / C++ code style
+[0.972s] -- Configured uncrustify additional arguments: 
+[0.972s] -- Added test 'xmllint' to check XML markup files
+[0.973s] -- Configuring done
+[0.977s] -- Generating done
+[0.979s] -- Build files have been written to: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo
+[0.986s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/callback_demo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo
+[0.987s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo -- -j20 -l20
+[1.026s] [ 50%] [32mBuilding CXX object CMakeFiles/callback_demo.dir/src/main.cpp.o[0m
+[4.465s] [100%] [32m[1mLinking CXX executable callback_demo[0m
+[4.556s] [100%] Built target callback_demo
+[4.566s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo -- -j20 -l20
+[4.586s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo
+[4.590s] -- Install configuration: ""
+[4.590s] -- Execute custom install script
+[4.591s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/lib/callback_demo/callback_demo
+[4.597s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/ament_index/resource_index/package_run_dependencies/callback_demo
+[4.603s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/ament_index/resource_index/parent_prefix_path/callback_demo
+[4.611s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/environment/ament_prefix_path.sh
+[4.616s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/environment/ament_prefix_path.dsv
+[4.622s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/environment/path.sh
+[4.629s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/environment/path.dsv
+[4.634s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/local_setup.bash
+[4.640s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/local_setup.sh
+[4.648s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/local_setup.zsh
+[4.654s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/local_setup.dsv
+[4.664s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/package.dsv
+[4.671s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/ament_index/resource_index/packages/callback_demo
+[4.676s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/cmake/callback_demoConfig.cmake
+[4.686s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/cmake/callback_demoConfig-version.cmake
+[4.692s] -- Symlinking: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo/share/callback_demo/package.xml
+[4.701s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/callback_demo

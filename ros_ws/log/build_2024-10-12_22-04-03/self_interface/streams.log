@@ -1,0 +1,105 @@
+[0.007s] Invoking command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface -- -j20 -l20
+[0.027s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.109s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.113s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.115s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.117s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.152s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.176s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.177s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.257s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.289s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.503s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.689s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.927s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.945s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.961s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.961s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.961s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.988s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[0.988s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[0.988s]   rosidl_target_interfaces()
+[0.988s] Call Stack (most recent call first):
+[0.989s]   CMakeLists.txt:24 (rosidl_target_interfaces)
+[0.989s] 
+[0.989s] [0m
+[0.989s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.994s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.995s] -- Configured cppcheck include dirs: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/self_interface/ros_ws/install/self_interface/include/self_interface
+[0.995s] -- Configured cppcheck exclude dirs and/or files: 
+[0.995s] -- Added test 'lint_cmake' to check CMake code style
+[0.996s] -- Added test 'uncrustify' to check C / C++ code style
+[0.996s] -- Configured uncrustify additional arguments: 
+[0.996s] -- Added test 'xmllint' to check XML markup files
+[0.997s] -- Configuring done
+[1.019s] -- Generating done
+[1.021s] -- Build files have been written to: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface
+[1.041s] [35m[1mConsolidate compiler generated dependencies of target self_interface__rosidl_generator_c[0m
+[1.052s] [  3%] [32mBuilding C object CMakeFiles/self_interface__rosidl_generator_c.dir/rosidl_generator_c/self_interface/msg/detail/robot__functions.c.o[0m
+[1.053s] [  6%] Built target self_interface__cpp
+[1.055s] [  6%] Built target ament_cmake_python_symlink_self_interface
+[1.061s] [35m[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_introspection_cpp[0m
+[1.063s] [35m[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_cpp[0m
+[1.064s] [35m[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_fastrtps_cpp[0m
+[1.070s] [  9%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/self_interface/msg/detail/robot__type_support.cpp.o[0m
+[1.079s] [ 12%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/self_interface/msg/robot__type_support.cpp.o[0m
+[1.089s] [ 15%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/self_interface/msg/detail/dds_fastrtps/robot__type_support.cpp.o[0m
+[1.122s] [ 18%] [32m[1mLinking C shared library libself_interface__rosidl_generator_c.so[0m
+[1.159s] [ 21%] Built target self_interface__rosidl_generator_c
+[1.170s] [35m[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_introspection_c[0m
+[1.170s] [35m[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_c[0m
+[1.170s] [35m[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_fastrtps_c[0m
+[1.180s] [ 24%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/self_interface/msg/detail/robot__type_support_c.cpp.o[0m
+[1.181s] [ 27%] [32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/self_interface/msg/robot__type_support.cpp.o[0m
+[1.181s] [ 30%] [32mBuilding C object CMakeFiles/self_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/self_interface/msg/detail/robot__type_support.c.o[0m
+[1.210s] [ 33%] [32m[1mLinking C shared library libself_interface__rosidl_typesupport_introspection_c.so[0m
+[1.213s] [ 36%] [32m[1mLinking CXX shared library libself_interface__rosidl_typesupport_c.so[0m
+[1.237s] running egg_info
+[1.237s] writing self_interface.egg-info/PKG-INFO
+[1.237s] writing dependency_links to self_interface.egg-info/dependency_links.txt
+[1.237s] writing top-level names to self_interface.egg-info/top_level.txt
+[1.239s] reading manifest file 'self_interface.egg-info/SOURCES.txt'
+[1.239s] writing manifest file 'self_interface.egg-info/SOURCES.txt'
+[1.243s] [ 39%] Built target self_interface__rosidl_typesupport_introspection_c
+[1.247s] [ 42%] Built target self_interface__rosidl_typesupport_c
+[1.259s] [ 42%] Built target ament_cmake_python_build_self_interface_egg
+[1.260s] [ 45%] [32m[1mLinking CXX shared library libself_interface__rosidl_typesupport_cpp.so[0m
+[1.291s] [ 48%] Built target self_interface__rosidl_typesupport_cpp
+[1.339s] [ 51%] [32m[1mLinking CXX shared library libself_interface__rosidl_typesupport_introspection_cpp.so[0m
+[1.365s] [ 54%] [32m[1mLinking CXX shared library libself_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.391s] [ 57%] Built target self_interface__rosidl_typesupport_introspection_cpp
+[1.408s] [ 60%] [32m[1mLinking CXX shared library libself_interface__rosidl_typesupport_fastrtps_c.so[0m
+[1.422s] [ 63%] Built target self_interface__rosidl_typesupport_fastrtps_cpp
+[1.458s] [ 66%] Built target self_interface__rosidl_typesupport_fastrtps_c
+[1.475s] [ 66%] Built target self_interface
+[1.485s] [35m[1mConsolidate compiler generated dependencies of target robot_publisher[0m
+[1.496s] [ 69%] Built target self_interface__py
+[1.498s] [ 72%] [32mBuilding CXX object CMakeFiles/robot_publisher.dir/src/main.cpp.o[0m
+[1.508s] [35m[1mConsolidate compiler generated dependencies of target self_interface__rosidl_generator_py[0m
+[1.525s] [ 75%] [32mBuilding C object CMakeFiles/self_interface__rosidl_generator_py.dir/rosidl_generator_py/self_interface/msg/_robot_s.c.o[0m
+[1.597s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/self_interface/libself_interface__rosidl_generator_py.so[0m
+[1.629s] [ 78%] Built target self_interface__rosidl_generator_py
+[1.639s] [35m[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.639s] [35m[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_c__pyext[0m
+[1.639s] [35m[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_introspection_c__pyext[0m
+[1.652s] [ 81%] [32mBuilding C object CMakeFiles/self_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/self_interface/_self_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.652s] [ 84%] [32mBuilding C object CMakeFiles/self_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/self_interface/_self_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.653s] [ 87%] [32mBuilding C object CMakeFiles/self_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/self_interface/_self_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[1.716s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/self_interface/self_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.718s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/self_interface/self_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.754s] [ 93%] Built target self_interface__rosidl_typesupport_c__pyext
+[1.756s] [ 93%] Built target self_interface__rosidl_typesupport_introspection_c__pyext
+[1.757s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/self_interface/self_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.789s] [ 96%] Built target self_interface__rosidl_typesupport_fastrtps_c__pyext
+[2.849s] [01m[K/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/self_interface/src/main.cpp:[m[K In member function ‘[01m[Kvoid TopicPublisher01::timer_callback()[m[K’:
+[2.849s] [01m[K/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/self_interface/src/main.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmy_interface[m[K’ has not been declared
+[2.849s]    21 |         [01;31m[Kmy_interface[m[K::msg::Robot message;
+[2.850s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.854s] [01m[K/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/self_interface/src/main.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[2.854s]    22 |         [01;31m[Kmessage[m[K.name = "A";
+[2.854s]       |         [01;31m[K^~~~~~~[m[K
+[3.285s] gmake[2]: *** [CMakeFiles/robot_publisher.dir/build.make:76: CMakeFiles/robot_publisher.dir/src/main.cpp.o] Error 1
+[3.285s] gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/robot_publisher.dir/all] Error 2
+[3.286s] gmake: *** [Makefile:146: all] Error 2
+[3.289s] Invoked command in '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface -- -j20 -l20

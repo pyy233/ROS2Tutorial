@@ -1,0 +1,153 @@
+[0.000000] (-) TimerEvent: {}
+[0.000486] (-) JobUnselected: {'identifier': 'callback_demo'}
+[0.000534] (-) JobUnselected: {'identifier': 'example_param_rclcpp'}
+[0.000669] (-) JobUnselected: {'identifier': 'example_service_rclcpp'}
+[0.000686] (-) JobUnselected: {'identifier': 'example_topic_rclcpp'}
+[0.000696] (-) JobUnselected: {'identifier': 'my_interface'}
+[0.000790] (-) JobUnselected: {'identifier': 'robot_status'}
+[0.000806] (-) JobUnselected: {'identifier': 'rviz_demo'}
+[0.000816] (-) JobUnselected: {'identifier': 'tf_demo'}
+[0.000921] (self_interface) JobQueued: {'identifier': 'self_interface', 'dependencies': OrderedDict()}
+[0.000942] (self_interface) JobStarted: {'identifier': 'self_interface'}
+[0.006136] (self_interface) JobProgress: {'identifier': 'self_interface', 'progress': 'cmake'}
+[0.006927] (self_interface) JobProgress: {'identifier': 'self_interface', 'progress': 'build'}
+[0.006945] (self_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface', '--', '-j20', '-l20'], 'cwd': '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'qep'), ('SSH_CLIENT', '127.0.0.1 36988 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/qep/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/self_interface/lib:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/qep/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/qep'), ('OLDPWD', '/home/qep/WorkSpace/RM2025/ROS2tutorial'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('NVM_BIN', '/home/qep/.nvm/versions/node/v20.17.0/bin'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e1c87aaf-b260-4c35-8c7c-696e170f0715.sock'), ('NVM_INC', '/home/qep/.nvm/versions/node/v20.17.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/qep/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/qep/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('NVM_DIR', '/home/qep/.nvm'), ('COLCON_PREFIX_PATH', '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'qep'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '36'), ('LIBGL_ALWAYS_INDIRECT', '0'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/qep/.vscode-server/cli/servers/Stable-384ff7382de624fb94dbaf6da11977bba1ecd427/server/bin/remote-cli:/home/qep/.nvm/versions/node/v20.17.0/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', 'localhost:10.0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-549439642e.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/tf_demo:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/self_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/rviz_demo:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface'), ('SSH_CONNECTION', '127.0.0.1 36988 127.0.0.1 22'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/gnome:/home/qep/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/self_interface/local/lib/python3.10/dist-packages:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/tf_demo:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/self_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/rviz_demo:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/robot_status:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/my_interface:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_topic_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_service_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/example_param_rclcpp:/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/install/callback_demo:/opt/ros/humble')]), 'shell': False}
+[0.028213] (self_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099816] (-) TimerEvent: {}
+[0.110167] (self_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.114278] (self_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.115864] (self_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.117527] (self_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.137676] (self_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.153268] (self_interface) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.176537] (self_interface) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.177488] (self_interface) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.199992] (-) TimerEvent: {}
+[0.257858] (self_interface) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.289751] (self_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.300218] (-) TimerEvent: {}
+[0.400603] (-) TimerEvent: {}
+[0.501003] (-) TimerEvent: {}
+[0.503820] (self_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.601235] (-) TimerEvent: {}
+[0.689613] (self_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.701345] (-) TimerEvent: {}
+[0.801593] (-) TimerEvent: {}
+[0.901991] (-) TimerEvent: {}
+[0.928222] (self_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.945713] (self_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.961797] (self_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.961997] (self_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.962108] (self_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.988950] (self_interface) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[0.989169] (self_interface) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[0.989262] (self_interface) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[0.989347] (self_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.989425] (self_interface) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_target_interfaces)\n'}
+[0.989502] (self_interface) StderrLine: {'line': b'\n'}
+[0.989580] (self_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[0.989657] (self_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.995015] (self_interface) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.995531] (self_interface) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/self_interface/ros_ws/install/self_interface/include/self_interface\n'}
+[0.995697] (self_interface) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.995913] (self_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.996255] (self_interface) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.996525] (self_interface) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.996622] (self_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.998036] (self_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.002201] (-) TimerEvent: {}
+[1.020153] (self_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[1.022101] (self_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/build/self_interface\n'}
+[1.041641] (self_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target self_interface__rosidl_generator_c\x1b[0m\n'}
+[1.052659] (self_interface) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/self_interface__rosidl_generator_c.dir/rosidl_generator_c/self_interface/msg/detail/robot__functions.c.o\x1b[0m\n'}
+[1.053835] (self_interface) StdoutLine: {'line': b'[  6%] Built target self_interface__cpp\n'}
+[1.056269] (self_interface) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_self_interface\n'}
+[1.061363] (self_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.064206] (self_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.064462] (self_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.070525] (self_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/self_interface/msg/detail/robot__type_support.cpp.o\x1b[0m\n'}
+[1.080155] (self_interface) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/self_interface/msg/robot__type_support.cpp.o\x1b[0m\n'}
+[1.089686] (self_interface) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/self_interface/msg/detail/dds_fastrtps/robot__type_support.cpp.o\x1b[0m\n'}
+[1.102307] (-) TimerEvent: {}
+[1.122583] (self_interface) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libself_interface__rosidl_generator_c.so\x1b[0m\n'}
+[1.159515] (self_interface) StdoutLine: {'line': b'[ 21%] Built target self_interface__rosidl_generator_c\n'}
+[1.170429] (self_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.170640] (self_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_c\x1b[0m\n'}
+[1.171003] (self_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.180841] (self_interface) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/self_interface/msg/detail/robot__type_support_c.cpp.o\x1b[0m\n'}
+[1.181709] (self_interface) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/self_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/self_interface/msg/robot__type_support.cpp.o\x1b[0m\n'}
+[1.181878] (self_interface) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/self_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/self_interface/msg/detail/robot__type_support.c.o\x1b[0m\n'}
+[1.202400] (-) TimerEvent: {}
+[1.211266] (self_interface) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking C shared library libself_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.213563] (self_interface) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libself_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.237654] (self_interface) StdoutLine: {'line': b'running egg_info\n'}
+[1.238104] (self_interface) StdoutLine: {'line': b'writing self_interface.egg-info/PKG-INFO\n'}
+[1.238252] (self_interface) StdoutLine: {'line': b'writing dependency_links to self_interface.egg-info/dependency_links.txt\n'}
+[1.238366] (self_interface) StdoutLine: {'line': b'writing top-level names to self_interface.egg-info/top_level.txt\n'}
+[1.239656] (self_interface) StdoutLine: {'line': b"reading manifest file 'self_interface.egg-info/SOURCES.txt'\n"}
+[1.240001] (self_interface) StdoutLine: {'line': b"writing manifest file 'self_interface.egg-info/SOURCES.txt'\n"}
+[1.244207] (self_interface) StdoutLine: {'line': b'[ 39%] Built target self_interface__rosidl_typesupport_introspection_c\n'}
+[1.247987] (self_interface) StdoutLine: {'line': b'[ 42%] Built target self_interface__rosidl_typesupport_c\n'}
+[1.260223] (self_interface) StdoutLine: {'line': b'[ 42%] Built target ament_cmake_python_build_self_interface_egg\n'}
+[1.260969] (self_interface) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libself_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.291378] (self_interface) StdoutLine: {'line': b'[ 48%] Built target self_interface__rosidl_typesupport_cpp\n'}
+[1.302523] (-) TimerEvent: {}
+[1.339808] (self_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libself_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.365908] (self_interface) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libself_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.391995] (self_interface) StdoutLine: {'line': b'[ 57%] Built target self_interface__rosidl_typesupport_introspection_cpp\n'}
+[1.402735] (-) TimerEvent: {}
+[1.408485] (self_interface) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libself_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.422755] (self_interface) StdoutLine: {'line': b'[ 63%] Built target self_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[1.458940] (self_interface) StdoutLine: {'line': b'[ 66%] Built target self_interface__rosidl_typesupport_fastrtps_c\n'}
+[1.475636] (self_interface) StdoutLine: {'line': b'[ 66%] Built target self_interface\n'}
+[1.486020] (self_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_publisher\x1b[0m\n'}
+[1.497325] (self_interface) StdoutLine: {'line': b'[ 69%] Built target self_interface__py\n'}
+[1.498414] (self_interface) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/robot_publisher.dir/src/main.cpp.o\x1b[0m\n'}
+[1.502738] (-) TimerEvent: {}
+[1.508411] (self_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target self_interface__rosidl_generator_py\x1b[0m\n'}
+[1.526058] (self_interface) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/self_interface__rosidl_generator_py.dir/rosidl_generator_py/self_interface/msg/_robot_s.c.o\x1b[0m\n'}
+[1.598271] (self_interface) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/self_interface/libself_interface__rosidl_generator_py.so\x1b[0m\n'}
+[1.602907] (-) TimerEvent: {}
+[1.629640] (self_interface) StdoutLine: {'line': b'[ 78%] Built target self_interface__rosidl_generator_py\n'}
+[1.639915] (self_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.640016] (self_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.640258] (self_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target self_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.653093] (self_interface) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/self_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/self_interface/_self_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.653225] (self_interface) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/self_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/self_interface/_self_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.653466] (self_interface) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/self_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/self_interface/_self_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.703020] (-) TimerEvent: {}
+[1.716468] (self_interface) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/self_interface/self_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.718648] (self_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/self_interface/self_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.755163] (self_interface) StdoutLine: {'line': b'[ 93%] Built target self_interface__rosidl_typesupport_c__pyext\n'}
+[1.756399] (self_interface) StdoutLine: {'line': b'[ 93%] Built target self_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[1.757377] (self_interface) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/self_interface/self_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.789998] (self_interface) StdoutLine: {'line': b'[ 96%] Built target self_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.803118] (-) TimerEvent: {}
+[1.903487] (-) TimerEvent: {}
+[2.003845] (-) TimerEvent: {}
+[2.104264] (-) TimerEvent: {}
+[2.204669] (-) TimerEvent: {}
+[2.305100] (-) TimerEvent: {}
+[2.405523] (-) TimerEvent: {}
+[2.505929] (-) TimerEvent: {}
+[2.606269] (-) TimerEvent: {}
+[2.706606] (-) TimerEvent: {}
+[2.806968] (-) TimerEvent: {}
+[2.850121] (self_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/self_interface/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TopicPublisher01::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.850294] (self_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/self_interface/src/main.cpp:21:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmy_interface\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.850359] (self_interface) StderrLine: {'line': b'   21 |         \x1b[01;31m\x1b[Kmy_interface\x1b[m\x1b[K::msg::Robot message;\n'}
+[2.850418] (self_interface) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.854605] (self_interface) StderrLine: {'line': b'\x1b[01m\x1b[K/home/qep/WorkSpace/RM2025/ROS2tutorial/ros_ws/src/self_interface/src/main.cpp:22:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.854721] (self_interface) StderrLine: {'line': b'   22 |         \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K.name = "A";\n'}
+[2.854780] (self_interface) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.907176] (-) TimerEvent: {}
+[3.007422] (-) TimerEvent: {}
+[3.107774] (-) TimerEvent: {}
+[3.208119] (-) TimerEvent: {}
+[3.285896] (self_interface) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/robot_publisher.dir/build.make:76: CMakeFiles/robot_publisher.dir/src/main.cpp.o] Error 1\n'}
+[3.286106] (self_interface) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:594: CMakeFiles/robot_publisher.dir/all] Error 2\n'}
+[3.286423] (self_interface) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.288833] (self_interface) CommandEnded: {'returncode': 2}
+[3.308185] (-) TimerEvent: {}
+[3.364541] (self_interface) JobEnded: {'identifier': 'self_interface', 'rc': 2}
+[3.375154] (-) EventReactorShutdown: {}
